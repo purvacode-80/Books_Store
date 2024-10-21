@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: rgb(213, 232, 245);
 }
 
 header {
-    background-color: #4c7faf;
-    color: #fff;
+    background-color: #67bff9;
+    color: #0c0c0c;
     padding: 1em;
+    font-size: 1.4em;
     text-align: center;
+    font-family: "Graduate", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header h1 {
@@ -37,6 +44,14 @@ main {
     flex-wrap: wrap;
 }
 
+.section-container h2 {
+    font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.2em;
+  color: rgb(144, 42, 239);
+}
+
 /* Responsive layout for small screens */
 @media (max-width: 768px) {
     .section-container {
@@ -57,9 +72,9 @@ main {
 .book-section {
     flex: 1;
     min-width: 280px;
-    background-color: white;
+    background-color: #e9f0f9;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
 }
 
@@ -118,7 +133,7 @@ main {
 }
 
 .book-item button {
-    background-color: #4CAF50;
+    background-color: #528ff9;
     color: white;
     border: none;
     padding: 10px;
