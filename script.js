@@ -3,29 +3,23 @@
 document.addEventListener('DOMContentLoaded', () => {
     const books = {
         beginner: [
-            { title: 'English for Beginners', author: 'Anne Seaton <br> Y. H. Mew', image: 'https://example.com/beginner1.jpg', read: false },
-            { title: 'Grammar', author: 'AMSCO SCHOOL PUBLICATIONS', image: 'https://example.com/beginner2.jpg', read: false },
-            { title: 'Basic Grammar', author: 'Anne Seaton <br> Y. H. Mew', image: 'https://example.com/beginner1.jpg', read: false },
-            { title: 'Dictionary', author: 'OXFORD Publication<br>', image: 'https://example.com/beginner1.jpg', read: false },
-            { title: 'Grammar Workbook', author: 'Arlene Miller The <br> ', image: 'https://example.com/beginner1.jpg', read: false },
-            { title: 'Conversion Stories', author: 'Dr. Vandana <br>', image: 'https://example.com/beginner1.jpg', read: false },
+            { title: 'Basic Grammar', author: 'Anne Seaton <br> Y. H. Mew',  read: false },
+            { title: 'Learn English - Fast and Easy', author: 'OXFORD Publication<br>', read: false },
+            { title: 'Spoken_English', author: 'Arlene Miller The <br> ', read: false },
             // Add more beginner books here
         ],
         intermediate: [
-            { title: 'Intermediate English Vocabulary', author: 'Cambridge University', image: 'https://example.com/intermediate1.jpg', read: false },
-            { title: 'English Conversation Skills', author: 'Roy Johnson', image: 'https://example.com/intermediate2.jpg', read: false },
-            { title: 'Grammer Comic ', author: 'Miss.Priti', image: 'https://example.com/intermediate1.jpg', read: false },
-            { title: 'Elementary Level Grammar Book ', author: 'Herwig Rothländer', image: 'https://example.com/intermediate1.jpg', read: false },
+            { title: 'Grammar', author: 'AMSCO SCHOOL PUBLICATIONS', read: false },
+            { title: 'Reading Skills', author: 'Dr. Vandana <br>',read: false },
+            { title: 'Grammer Comic ', author: 'Miss.Priti',read: false },
+            { title: 'Elementary Level Grammar Book ', author: 'Herwig Rothländer', read: false },
             // Add more intermediate books here
         ],
         advanced: [
             
-            { title: 'Advanced GRAMMAR', author: 'Carol Davis', image: 'https://example.com/advanced1.jpg', read: false },
-            { title: 'EXPERT_LEARNING', author: 'Dave Wilson', image: 'https://example.com/advanced2.jpg', read: false },
-            { title: 'Advanced_English_GRAMMER', author: 'Carol Davis', image: 'https://example.com/advanced1.jpg', read: false },
-            { title: 'Advanced Grammer Use', author: 'University Press', image: 'https://example.com/advanced2.jpg', read: false },
-            { title: 'Writing Skill', author: ' Wilcox Peterson', image: 'https://example.com/advanced1.jpg', read: false },
-
+            { title: 'Advanced Vocabulary', author: 'Carol Davis',read: false },
+            { title: 'Teachers Book', author: 'Dave Wilson', read: false },
+             { title: 'Writing Skill', author: 'Roy Johnson',read: false },
             // Add more advanced books here
         ]
     };
